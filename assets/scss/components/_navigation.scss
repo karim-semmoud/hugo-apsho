@@ -42,9 +42,9 @@
 
   .navbar-brand {
     img {
-      width: 154px;
+      width: 300px;
       @include mobile {
-        width: 120px;
+        width: 220px;
       }
     }
   }

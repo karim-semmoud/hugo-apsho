@@ -47,9 +47,9 @@
             z-index: 1;
             top: 50%;
             transform: translateY(-50%);
-            right: 10px;
+            left: 25%;
             @include mobile-xs {
-              right: 5px;
+              left: 25%;
             }
 
             button {
