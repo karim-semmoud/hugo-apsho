@@ -128,14 +128,15 @@
       margin-top: 60px;
       line-height: 65px;
       margin-bottom: 50px;
+      font-size: 28px;
 
       @include tablet {
-        font-size: 35px;
+        font-size: 26px;
         line-height: 44px;
         margin: 40px 0 30px;
       }
       @include mobile {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 34px;
       }
     }
