@@ -16,13 +16,10 @@
         </div>
       </div>
       <div class="screenshots-wrapper">
-        <div class="screenshots-slider-frame">
-          <img src="images/screenshots/slider-frame.svg" alt="slider-frame" />
-        </div>
         <div class="screenshots-slider">
           {{ $Section := .images }}
           {{ range $Section }}
-            <div class="screenshots-slider-item">
+            <div class="screenshots-slider-item slider-item">
               <img src={{ .url }} alt="" />
             </div>
           {{ end }}
